@@ -1,0 +1,24 @@
+.container{
+		background:blue;
+		height:80px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+}
+
+.item{
+		background:blue;
+		font-size:48px;
+		height:75px;
+		paddingg:5px;
+		color:#FEFEFE;
+		font-family:calibri;
+		
+		
+}
+
+.body{
+	background:"istockphoto-530240223-612x61223.jpg";
+}
+
+
