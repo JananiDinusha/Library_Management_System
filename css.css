@@ -1,0 +1,33 @@
+h1{color:blue;font-size:48px;font-family:Times New Roman;}
+h2{color:#B30B03 ;font-size:24px;}
+
+
+.container{
+		background:#1C0785 ;
+		height:50px;
+		padding:0;
+		border:0;
+		display:flex;
+		justify-content:flex-start;
+		flex-direction:row;
+		align-content:stretch;
+	}
+.item {
+		background:#F6FEFE;
+		padding:12px;
+		border:0;
+		font-size:18px;
+		color:#FDFEFE;	
+
+}
+
+.container 2{
+		background:#B8BA1A;
+		height:20px;
+		padding:0;
+		border:0;
+		
+	}
+
+
+		
