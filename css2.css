@@ -1,0 +1,40 @@
+.container{
+	background:orange;
+	padding:0;
+	height:50;
+	justify-content:center;
+	align-items:flex-start;
+}
+
+.item{
+	background:yellow;
+	width:50px;
+	height:20px;
+	color:white;
+	padding:10px;
+	font-size:19px;
+}
+
+.container1{
+	background:yellow;
+	padding:30px;
+	margin:0;
+	height:300px;
+	width:600px;
+}
+
+.container2{
+	background:#CCCCFF;
+	padding:30px;
+	margin:0;
+	height:300px;
+	width:600px;
+	color:black;
+}
+
+.item1{
+	background:yellow;
+	height:250px;
+	width:500px;
+	padding:20px;
+}

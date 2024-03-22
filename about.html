@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Page</title>
+	<link rel="stylesheet" type="text/css" href="css2.css">
+</head>
+<body>
+	
+	<table width=100% height=100%>
+		<tr>
+			<th colspan=3><p align="left"><font color="blue" size=12px family="Times New Roman"><center>Orilla Public Library in Nikaweratiya </center></font></p> </th>
+			<th><img src="OIP (1).jpeg" width=150px height=120px></p></th>
+		</tr>
+		<tr>
+			<td colspan=4><div class="container">
+				<div class="item"><a href="home.html">Home</a></div>
+			</div></td>
+		</tr>
+		<tr>
+			<td colspan=3><h1><font color="red" size=60px><center>Good books don't give up<br> all their secrets at once</center></font></h1></td>
+			<td ><center><img src="images.png" height=300px width=400px></center></td>
+		</tr>
+		<tr>
+			<td colspan=2>
+						
+					<div class="container2">
+
+					<button id="but1"><font size=4px>Click here to follow the guidlines for Students</font></button><br><br>
+					<button id="but2"><font size=4px>Benefits of using the library </font></button>
+					<p id="para">There is a paragraph</p>
+					<p><font size=5>Enter your comment below.</font></p>
+					<p>Type here, agree/disagree</p>
+					<input type="text" id="text1">
+					<button id="but3">Enter</button>
+					
+
+				
+						
+					<script>
+
+						document.getElementById("but1").onclick=function(){
+							document.getElementById("para").innerHTML="Readers should not mark,underline,write,or tear pages or otherwise damage the library documents.Readers are requested to handle all library property carefully to avoid damage to it and also not to disturb to other readers. No library material can be taken out of the library without the permission of librarian";					";
+							}
+
+						document.getElementById("but2").onclick=function(){	
+							document.getElementById("para").innerHTML="Libraries offer several benefits. They provide access to a wide range of resources, such as books, which can increase knowledge and insight. Libraries also offer various services that contribute to user's quality of life, including higher life satisfaction, happiness,and a sense of purpose. ";
+						}
+
+						
+						
+						
+						document.getElementById("but3").onclick=function(){
+							
+							var name1="agree";
+							if(name1 == document.getElementById("text1").value){
+								alert("Thank you.");
+							}
+							else
+								alert("Please obey the rules");
+							}
+						}
+						</script>
+					</div>
+				
+			</td>
+			<td colspan=2>
+				<div class="container1">
+					<div class="item1"><font size=5px color="red">History of libraries</font><br>
+						The first libraries appeared five thousand years ago in Southwest Asia's Fertile Crescent, an area that ran from Mesopotamia to the Nile in Africa. Known as the cradle of civilization, the Fertile Crescent was the birthplace of writing, sometime before 3000 BC.
+						The world's oldest known library was founded sometime in the 7th century B.C. for the “royal contemplation” of the Assyrian ruler Ashurbanipal. Located in Nineveh in modern-day Iraq, the site included a trove of some 30,000 cuneiform tablets organized according to subject matter.<br>
+						<img src="HistoryofLibraries1.jpeg" width=200px height=120px></div>
+				</div>
+			</td>
+		</tr>
+
+	</table>
+
+</body>
+</html>
