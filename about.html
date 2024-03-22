@@ -25,9 +25,8 @@
 						
 					<div class="container2">
 
-					<button id="but1"><font size=4px>Click here to follow the guidlines for Students</font></button><br><br>
 					<button id="but2"><font size=4px>Benefits of using the library </font></button>
-					<p id="para">There is a paragraph</p>
+					<p id="para2"></p>
 					<p><font size=5>Enter your comment below.</font></p>
 					<p>Type here, agree/disagree</p>
 					<input type="text" id="text1">
@@ -38,26 +37,18 @@
 						
 					<script>
 
-						document.getElementById("but1").onclick=function(){
-							document.getElementById("para").innerHTML="Readers should not mark,underline,write,or tear pages or otherwise damage the library documents.Readers are requested to handle all library property carefully to avoid damage to it and also not to disturb to other readers. No library material can be taken out of the library without the permission of librarian";					";
-							}
-
 						document.getElementById("but2").onclick=function(){	
 							document.getElementById("para").innerHTML="Libraries offer several benefits. They provide access to a wide range of resources, such as books, which can increase knowledge and insight. Libraries also offer various services that contribute to user's quality of life, including higher life satisfaction, happiness,and a sense of purpose. ";
 						}
 
-						
-						
+					</script>
+
+					<script>
+	
 						
 						document.getElementById("but3").onclick=function(){
 							
-							var name1="agree";
-							if(name1 == document.getElementById("text1").value){
-								alert("Thank you.");
-							}
-							else
-								alert("Please obey the rules");
-							}
+							alert("Thank you for your comment.");
 						}
 						</script>
 					</div>
